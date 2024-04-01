@@ -29,7 +29,7 @@ while true; do
     echo "24) Show iptables rules"
     echo "25) Exit"
     read -p "Enter your choice: " choice
-
+    echo -e "===================================\n"
     case $choice in
         1) # Create user
             read -p "Enter username: " username
@@ -166,4 +166,5 @@ while true; do
             echo "Invalid option. Please try again."
             ;;
     esac
+	echo -e "====================================\n"
 done
