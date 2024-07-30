@@ -1,11 +1,5 @@
-# SoftwareSecurity-ProjectWork
-
-repo'ni clone qiling: git@github.com:sean-ias/SoftwareSecurity-ProjectWork.git
-
-ichidagi script.sh ni yurgazing: $ ./script.sh
-
-script.sh 'da execute (x) permission borligiga ishonch hosil qiling
-
-agar (x) execute permission bo'lmasa, yurgazolmasez, $ chmod u+x script.sh
-
-$ ./script.sh
+Clone the repo: git@github.com:sean-ias/SoftwareSecurity-ProjectWork.git<br>
+Run: $ ./script.sh<br>
+make sure script.sh has necessary (x) execute permission<br>
+if there isn't (x) permission, run: $ chmod u+x script.sh<br>
+$ ./script.sh<br>
